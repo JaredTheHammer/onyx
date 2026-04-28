@@ -1,4 +1,5 @@
 <!-- BEGIN:dev-workspace-shared -->
+
 ## Shared Workspace Agent Rules
 
 This section is managed from `C:\dev\scripts\sync-agent-docs.ps1`.
