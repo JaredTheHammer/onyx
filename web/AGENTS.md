@@ -16,6 +16,11 @@ UI components are spread across several directories while the codebase migrates 
 that are being phased out. Always prefer Opal first; fall back to `refresh-components` only for
 components not yet available in Opal.
 
+Issue reporting lives in `web/src/sections/issue-reporting/ReportIssueButton.tsx` with pure helpers
+in `web/src/lib/issueReporting.ts`. It uses existing `@sentry/nextjs` client config and keeps
+automatic screenshots disabled on authenticated/confidential Onyx routes; manual uploads must warn
+users to redact private document or chat content first.
+
 ## Opal Layouts (`lib/opal/src/layouts/`)
 
 All layout primitives are imported from `@opal/layouts`. They handle sizing, font selection, icon

@@ -103,3 +103,7 @@ ods screenshot-diff compare --project admin
 ```
 
 For more information, see [tools/ods/README.md](https://github.com/onyx-dot-app/onyx/blob/main/tools/ods/README.md#screenshot-diff---visual-regression-testing).
+
+## Issue Reporting
+
+The app and admin sidebars include a Sentry-backed "Report issue" action. It uses `NEXT_PUBLIC_SENTRY_DSN` and sends feedback tagged with `repo`, `app`, `route`, `environment`, and `release`. Automatic screenshots are disabled on authenticated/confidential Onyx routes; users can manually upload PNG/JPEG/WebP screenshots after redacting private document or chat content. Configure a Sentry issue alert where `issue.category = Feedback` emails `jared.m.hamm@gmail.com` with title `[onyx-web] New user issue report`.

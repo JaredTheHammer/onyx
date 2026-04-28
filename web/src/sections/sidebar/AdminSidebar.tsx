@@ -33,6 +33,7 @@ import { ADMIN_ROUTES, sidebarItem } from "@/lib/admin-routes";
 import useFilter from "@/hooks/useFilter";
 import { IconFunctionComponent } from "@opal/types";
 import AccountPopover from "@/sections/sidebar/AccountPopover";
+import ReportIssueButton from "@/sections/issue-reporting/ReportIssueButton";
 
 const SECTIONS = {
   UNLABELED: "",
@@ -342,6 +343,7 @@ function AdminSidebarInner({
         >
           Exit Admin Panel
         </SidebarTab>
+        <ReportIssueButton folded={folded} />
         <AccountPopover folded={folded} />
       </SidebarLayouts.Footer>
     </>
