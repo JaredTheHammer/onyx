@@ -79,6 +79,7 @@ import { errorHandlingFetcher } from "@/lib/fetcher";
 import AccountPopover from "@/sections/sidebar/AccountPopover";
 import ChatSearchCommandMenu from "@/sections/sidebar/ChatSearchCommandMenu";
 import { useQueryController } from "@/providers/QueryControllerProvider";
+import ReportIssueButton from "@/sections/issue-reporting/ReportIssueButton";
 
 // Visible-agents = pinned-agents + current-agent (if current-agent not in pinned-agents)
 // OR Visible-agents = pinned-agents (if current-agent in pinned-agents)
@@ -593,6 +594,7 @@ const MemoizedAppSidebarInner = memo(function AppSidebarInner() {
             {isAdmin ? "Admin Panel" : "Curator Panel"}
           </SidebarTab>
         )}
+        <ReportIssueButton folded={folded} />
         <AccountPopover
           folded={folded}
           onShowBuildIntro={

@@ -16,6 +16,7 @@ if (process.env.NEXT_PUBLIC_SENTRY_DSN) {
 
     tracesSampleRate: 0.0,
     profilesSampleRate: 0.0,
+    sendDefaultPii: false,
   });
 }
 
