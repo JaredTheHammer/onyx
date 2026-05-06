@@ -515,7 +515,7 @@ mcp==1.26.0
     #   onyx
 mdurl==0.1.2
     # via markdown-it-py
-mistune==3.2.0
+mistune==3.2.1
     # via onyx
 more-itertools==10.8.0
     # via
