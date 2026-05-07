@@ -293,7 +293,7 @@ fsspec==2025.10.0
     #   huggingface-hub
 gitdb==4.0.12
     # via gitpython
-gitpython==3.1.45
+gitpython==3.1.50
     # via braintrust
 google-api-core==2.28.1
     # via google-api-python-client
@@ -487,7 +487,7 @@ magika==0.6.3
     # via markitdown
 makefun==1.16.0
     # via fastapi-users
-mako==1.2.4
+mako==1.3.12
     # via
     #   alembic
     #   onyx
@@ -515,7 +515,7 @@ mcp==1.26.0
     #   onyx
 mdurl==0.1.2
     # via markdown-it-py
-mistune==3.2.0
+mistune==3.2.1
     # via onyx
 more-itertools==10.8.0
     # via
@@ -645,7 +645,7 @@ pathable==0.4.4
     # via jsonschema-path
 pdfminer-six==20251107
     # via markitdown
-pillow==12.1.1
+pillow==12.2.0
     # via python-pptx
 platformdirs==4.5.0
     # via
@@ -803,7 +803,7 @@ python-iso639==2025.11.16
     # via unstructured
 python-magic==0.4.27
     # via unstructured
-python-multipart==0.0.22
+python-multipart==0.0.27
     # via
     #   fastapi-users
     #   mcp
