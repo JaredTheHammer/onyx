@@ -267,7 +267,7 @@ packaging==24.2
     #   transformers
 parameterized==0.9.0
     # via cohere
-pillow==12.1.1
+pillow==12.2.0
     # via sentence-transformers
 prometheus-client==0.23.1
     # via
@@ -320,7 +320,7 @@ python-dotenv==1.1.1
     # via
     #   litellm
     #   pydantic-settings
-python-multipart==0.0.22
+python-multipart==0.0.27
     # via mcp
 pywin32==311 ; sys_platform == 'win32'
     # via mcp
