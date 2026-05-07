@@ -487,7 +487,7 @@ magika==0.6.3
     # via markitdown
 makefun==1.16.0
     # via fastapi-users
-mako==1.2.4
+mako==1.3.12
     # via
     #   alembic
     #   onyx
