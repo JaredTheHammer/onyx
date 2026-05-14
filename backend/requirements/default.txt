@@ -455,7 +455,7 @@ langdetect==1.0.9
     # via unstructured
 langfuse==3.10.0
     # via onyx
-langsmith==0.3.45
+langsmith==0.8.0
     # via langchain-core
 lazy-imports==1.0.1
     # via onyx
