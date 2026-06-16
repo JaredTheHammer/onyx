@@ -387,7 +387,7 @@ python-dotenv==1.1.1
     #   litellm
     #   pydantic-settings
     #   pytest-dotenv
-python-multipart==0.0.27
+python-multipart==0.0.31
     # via mcp
 pywin32==311 ; sys_platform == 'win32'
     # via mcp
