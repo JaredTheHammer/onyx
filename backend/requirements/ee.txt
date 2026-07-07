@@ -10,7 +10,7 @@ aiofiles==25.1.0
     # via aioboto3
 aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.13.4
+aiohttp==3.14.0
     # via
     #   aiobotocore
     #   discord-py
@@ -129,7 +129,7 @@ httpx-sse==0.4.3
     #   mcp
 huggingface-hub==0.35.3
     # via tokenizers
-idna==3.11
+idna==3.15
     # via
     #   anyio
     #   httpx
@@ -216,9 +216,9 @@ pydantic==2.11.7
     #   pydantic-settings
 pydantic-core==2.33.2
     # via pydantic
-pydantic-settings==2.12.0
+pydantic-settings==2.14.2
     # via mcp
-pyjwt==2.12.0
+pyjwt==2.13.0
     # via mcp
 python-dateutil==2.8.2
     # via
@@ -230,7 +230,7 @@ python-dotenv==1.1.1
     # via
     #   litellm
     #   pydantic-settings
-python-multipart==0.0.27
+python-multipart==0.0.31
     # via mcp
 pywin32==311 ; sys_platform == 'win32'
     # via mcp
@@ -302,6 +302,7 @@ types-requests==2.32.0.20250328
     # via cohere
 typing-extensions==4.15.0
     # via
+    #   aiohttp
     #   aiosignal
     #   anyio
     #   cohere
@@ -321,7 +322,7 @@ typing-inspection==0.4.2
     #   mcp
     #   pydantic
     #   pydantic-settings
-urllib3==2.6.3
+urllib3==2.7.0
     # via
     #   botocore
     #   kubernetes
