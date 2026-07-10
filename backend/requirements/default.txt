@@ -971,7 +971,7 @@ sniffio==1.3.1
     #   openai
 sortedcontainers==2.4.0
     # via distributed
-soupsieve==2.8
+soupsieve==2.8.4
     # via beautifulsoup4
 sqlalchemy==2.0.15
     # via
