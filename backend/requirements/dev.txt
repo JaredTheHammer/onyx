@@ -235,7 +235,7 @@ matplotlib-inline==0.2.1
     # via
     #   ipykernel
     #   ipython
-mcp==1.26.0
+mcp==1.27.2
     # via claude-agent-sdk
 multidict==6.7.0
     # via
