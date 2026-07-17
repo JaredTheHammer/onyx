@@ -510,7 +510,7 @@ marshmallow==3.26.2
     # via dataclasses-json
 matrix-client==0.3.2
     # via zulip
-mcp==1.26.0
+mcp==1.28.1
     # via
     #   claude-agent-sdk
     #   fastmcp
